@@ -1,0 +1,26 @@
+# Python runtime artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Streamlit and editor settings
+.streamlit/
+.vscode/
+
+# Local logs and temporary files
+logs/
+*.log
+
+# Local cache and generated stores
+chroma_db/
+md5.text
+chat_history/
+
+# System files
+.DS_Store
+Thumbs.db
