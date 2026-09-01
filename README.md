@@ -59,20 +59,6 @@ P5_LangChain_ReAct_Agent_demo/
 - Tongyi / Qwen
 - DashScope Embeddings
 
-## 🔒 发布到 GitHub 前的注意事项
-
-以下内容属于本地运行产物或环境相关文件，建议不要提交到仓库，已经写入 `.gitignore`：
-
-- `.vscode/`
-- `logs/`
-- `chroma_db/`
-- `md5.text`
-- `chat_history/`
-- `__pycache__/` 和 `*.pyc`
-- `*.log`
-
-当前项目代码中没有发现明文 API Key，但如果你本地后续加入了 `.env`、密钥文件或调试配置，请继续保持忽略，不要提交到 GitHub。
-
 ## ⚙️ 环境准备
 
 建议使用 Python 3.10+，并安装项目依赖：
